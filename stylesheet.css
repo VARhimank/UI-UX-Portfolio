@@ -1,0 +1,167 @@
+body, html {
+    margin: 0;
+    width: 100;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.blurbg {
+  background-image: url("hero-blur.png");
+  width: 100%;
+  padding: 50px 0px 0px 0px;
+  background-position: center;
+  background-size: cover;
+}
+
+.rounded-back {
+  width: 80%;
+  height: 85%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 65px;
+  position: relative;
+  border: 2px rgba(245, 66, 66, 0.5) solid;
+}
+
+.nav-bar {
+  height: 50px;
+  background-color: transparent;
+  color: rgb(194, 194, 194);
+  text-align: center;
+  padding: 20px 40px;
+}
+
+li:hover {
+  color: white;
+  background-color: rgb(245, 66, 66);
+  transition: 0.5s;
+}
+.nav-bar-logo {
+  float: left;
+}
+
+.logo {
+  width: 120px;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  float: left;
+  display: block;
+  padding: 20px 30px;
+}
+
+.red-button {
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+  float: right;
+  background-color: rgb(245, 66, 66);
+  box-shadow: 0px 10px rgb(148, 41, 41);
+}
+
+.resume {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.resume:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.main-text {
+  text-align: right;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  font-size: 7vw;
+  padding: 40px 40px 0px 40px;
+  line-height: 100px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1000px) {
+  .main-text {
+    top:30%;
+    line-height: 50px;
+  }
+
+  .logo {
+    width: 30%;
+    padding: 0px;
+  }
+
+  li {
+    padding: 10px;
+  }
+
+  .red-button {
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+
+  }
+
+  .model {
+    max-width: 50%;
+    position: relative;
+    top: 10%;
+    left: 0px;
+    height: auto;
+  }
+
+  ul {
+    width: 100%;
+    position: relative;
+    left: 20%;
+  }
+
+}
+
+@media (max-width: 670px) {
+
+  ul {
+    width: 100%;
+    position: relative;
+    left: 0%;
+  }
+
+  li {
+    padding: 20px;
+  }
+
+  .main-text {
+    font-size: 6vw;
+  }
+
+  .rounded-back {
+    height: 550px;
+  }
+
+  .model {
+    position: relative;
+    top: 100px;
+    max-width: 40%;
+  }
+
+  .red-button {
+    margin: 0 auto;
+    text-align: center;
+    width: 72px;
+    float: none;
+  }
+
+  .blurbg {
+    background-image: url("hero-blur.png");
+    height: 100%;
+    background-size: cover;
+}
